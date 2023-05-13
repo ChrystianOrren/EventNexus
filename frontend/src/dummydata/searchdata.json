@@ -1,0 +1,41 @@
+[
+    {
+        "university_id": "1",
+        "name": "UCF",
+        "location": "Orlando, FL",
+        "description": " BIG AS HELL",
+        "num_students": "80000"
+    },
+
+    {
+        "university_id": "2",
+        "name": "FSU",
+        "location": "Orlando, FL",
+        "description": " BIG AS HELL",
+        "num_students": "80000"
+    },
+
+    {
+        "university_id": "3",
+        "name": "UF",
+        "location": "Orlando, FL",
+        "description": " BIG AS HELL",
+        "num_students": "80000"
+    },
+
+    {
+        "university_id": "4",
+        "name": "UNF",
+        "location": "Orlando, FL",
+        "description": " BIG AS HELL",
+        "num_students": "80000"
+    },
+
+    {
+        "university_id": "5",
+        "name": "USF",
+        "location": "Orlando, FL",
+        "description": " BIG AS HELL",
+        "num_students": "80000"
+    }
+]

@@ -1,0 +1,457 @@
+:root {
+    --dutch: #e2d4b7;
+    --brown: #9c9583;
+    --ash: #a1a499;
+    --silver: #b0bbbf;
+    --green: #CADBC8;
+}
+
+.login-register {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    color: white;
+}
+  
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown);
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+      margin-left: 110px;
+      border: 5px solid var(--green);
+    }
+}
+
+  
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+    font-family: Raleway;
+}
+  
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+  
+button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin-top: 20px;
+    font-family: Raleway;
+}
+  
+.link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.create-drop-down {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.auth-error-msg {
+    color: red;
+    font-size: 15;
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-left{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ash);
+    text-transform: uppercase;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 900px;
+}
+
+.landing-right {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--silver);
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding: 2rem;
+}
+
+.landing-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-form-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 900px;
+    background-color: var(--silver);
+}
+
+.landing-btn {
+    background-color: var(--green);
+    height: 20px;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--brown);
+    padding: 1rem;
+    border-radius: 7rem;
+    cursor: pointer;
+    font-family: Raleway;
+}
+
+.About {
+    display: flex;
+    background-color: var(--brown);
+    border-radius: 10px;
+    border: 5px solid var(--green);
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 35px;
+    color: white;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+    font-family: Raleway;
+}
+
+.registerMsg {
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.SearchHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: darkslategrey;
+    padding-left: 15px;
+    width: 500px;
+    height: 100vh;
+}
+
+.SearchBar {
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchInput {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 2px solid black;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.SearchBtn {
+    background-color: white;
+    height: 72%;
+    width: 10%;
+    border-radius: 0px;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.SearchResults {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.SearchResult:hover {
+    background-color: lightgray;
+    padding: 2px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+    height: 1000px;
+    width: 100px;
+    align-items: center;
+
+}
+
+.LandingHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--blue);
+    justify-content: space-between;
+}
+
+.firstSearchResult:hover {
+    background-color: lightgray;
+}
+
+.createUni {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 5px solid var(--green);
+}
+
+.main {
+    background-color: var(--silver);
+    height: 97vh;
+    display: flex;
+}
+
+.main_sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ash);
+    width: 25%;
+    height: 97vh;
+    align-items: center;
+    font-family: Raleway;
+}
+
+.main_sidebar_p {
+    background-color: var(--green);
+    border-radius: 10px;
+    width: 255px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main_rso_search {
+    display: flex;
+    flex-direction: 'row';
+    align-items: center;
+    justify-content: center;
+}
+
+.main_rsos {
+    background-color: white;
+    width: 70%;
+    height: 30%;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.main_rsos_en {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.main_rsos_en:hover {
+    background-color: lightgrey;
+}
+
+.main_rsos_joined {
+    background-color: white;
+    border: 5px solid var(--green);
+    width: 70%;
+    height: 15%;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.main_rsos_joined_en{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.main_rsos_joined_en:hover {
+    background-color: lightgrey;
+}
+
+.main_filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75px;
+    width: 100%;
+    font-size: 25px;
+    font-family: Raleway;
+    margin-top: 20px;
+}
+
+.main_filters_selected {
+    background-color: var(--brown);
+    color: var(--green);
+    border-radius: 7rem;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.main_filters_notsel {
+    background-color: var(--green);
+    color: var(--brown);
+    border-radius: 7rem;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.main_event {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--brown);
+    border: 5px solid var(--green);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    justify-content: space-between;
+}
+
+.main_event p {
+    margin-left: 20px;
+}
+
+.SuperAdminPage {
+    display: flex;
+    background-color: var(--silver);
+    width: 100%;
+    height: 97vh;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Raleway;
+}
+
+.SuperAdminPage_con {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.approval_rso {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown);
+    border: 5px solid var(--green);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.approval_rso_button {
+    background-color: var(--green);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.approval_event {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown);
+    border: 5px solid var(--green);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.main_mapcon{
+    width: 500px;
+    height: 500px;
+}
+
+.comments {
+    padding-top: 20px;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.comments p {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.mycomments {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: .3rem;
+    border-radius: 10px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit_comment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    justify-content: space-between;
+}

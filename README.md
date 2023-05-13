@@ -1,1 +1,1 @@
-Open Report.pdf tp view all details about the project.
+Open Report.pdf to view all details about the project.
